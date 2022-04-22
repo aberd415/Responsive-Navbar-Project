@@ -1,8 +1,8 @@
 body {
     font-size: 125%;
-    background-color: #F2F2F2;
-    color:#0D0D0D; 
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #E9ECF2;
+    color:#4D4D4D; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow';
 }
 header, main, footer {
     width: 40em;
@@ -20,17 +20,22 @@ nav#menu a {
     text-decoration: none;
     display: block;
     padding: 0.5em 1em;
-    background-color: #63A5BF;
+    background-color: #d34f67;
 }
 nav#menu a:hover {
-    background-color: #F2F2F2;
+    background-color: #ce7c8d; 
 }
-a:link {
+nav#menu a:link {
 
 }
 a:visited {
-
+    color: #edf1f8;
 }
 a:hover {
+ 
+}
+a.current {
 
 }
+
+
