@@ -4,6 +4,10 @@ body {
     color:#4D4D4D; 
     font-family:'Franklin Gothic Medium', 'Arial Narrow';
 }
+h1, h2, h3 {
+    font-family:'Helvetica, sans-serif';
+
+}
 header, main, footer {
     width: 40em;
     max-width: 98%;
@@ -27,10 +31,10 @@ nav#menu a:hover {
     background-color: #DF8192; 
 }
 nav#menu a:link {
-
+    
 }
 a:visited {
-    color: #edf1f8;
+    color: #f8eded;
 }
 a:hover {
  
