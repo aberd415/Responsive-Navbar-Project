@@ -21,9 +21,10 @@ nav#menu a {
     display: block;
     padding: 0.5em 1em;
     background-color: #d34f67;
+    
 }
 nav#menu a:hover {
-    background-color: #ce7c8d; 
+    background-color: #DF8192; 
 }
 nav#menu a:link {
 
