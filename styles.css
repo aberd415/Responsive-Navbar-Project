@@ -25,6 +25,7 @@ nav ul {
     flex-direction: column;
     height: 0;
     opacity: 0;
+
 }
 nav ul.open {
     opacity: 1;
