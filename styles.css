@@ -25,6 +25,7 @@ nav ul {
     flex-direction: column;
     height: 0;
     opacity: 0;
+    transition: all 0.4s;
 
 }
 nav ul.open {
@@ -71,6 +72,16 @@ nav#menu a:visited {
     background-color: #E9ECF2;
     margin: 4px auto;
     transform: translateY(12px);
+    transition: all 0.3s;
+}
+#menu-toggle.open div.one {
+    transform: translateY(20px) rotate(0.125turn);
+}
+#menu-toggle.open div.two {
+    opacity: 0;
+}
+#menu-toggle.open div.three {
+    transform: translateY(6px) rotate(-0.125turn);
 }
 
 /* tablet view and up */
